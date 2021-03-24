@@ -5,16 +5,18 @@ Movies Collection App with ReactJS
 This is my movie collection app in React JS. I have created this app by using React JS, Material Design, HTML5, CSS3 and Bootstrap
 If you find any tips, please share them with me and let me know what can pe improved. suggestions are most welcome.
 
-Check the Movie Collection App  Demo:
+Check the Movie Collection App Demo:
 
 
-Uploading InVideo_Project_ID_364pprenderfs_1616594023250 (1) (convert-video-online.com).mp4…
+https://user-images.githubusercontent.com/3508760/112324242-95dc4f00-8cd8-11eb-9db9-10aa3bb5a353.mp4
+
+
 
 
 Instructions
 First clone this repository.
 
-$ git clone https://github.com/kabirbaidhya/react-todo-app.git
+$ git clone https://github.com/Niranjantakmare/Movie-Collection-APP-ReactJS-Firebase
 Install dependencies. Make sure you already have nodejs & npm installed in your system.
 
 $ npm install
