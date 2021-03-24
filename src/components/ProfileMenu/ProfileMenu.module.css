@@ -1,0 +1,21 @@
+
+.profileButton {
+    padding: 0px
+}
+.profileButton .profileMenu {
+    margin: 8px;
+    color: #fff;
+    background-color: #ff5722;
+    padding: 0px;
+}
+.profileButton:focus {
+    outline: none;
+}
+
+.ProfileMenuClass {
+    width: 100%;
+}
+
+.ProfileMenuPopup{
+    
+}

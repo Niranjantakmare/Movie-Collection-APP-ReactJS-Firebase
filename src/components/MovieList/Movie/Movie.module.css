@@ -1,0 +1,177 @@
+.card_view {
+    background: #ffffff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 0em;
+}
+ 
+.card_header {
+    padding: 0;
+    margin: 0;
+    height: 367px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.missionImpossible {
+    background-size: cover;
+}
+
+.card_header_icon {
+    position: relative;
+}
+ 
+.header_icon {
+    width: 100% !important;
+    height: 360px !important;
+    line-height: 367px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 54px !important;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+    opacity: .85;
+}
+ 
+.header_icon:hover {
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 74px !important;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+}
+ 
+.card_view:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card_view_selected {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+ 
+.card_movie_content {
+    padding: 12px 12px 12px 12px;
+    margin: 0;
+    cursor: pointer;
+}
+ 
+.card_movie_content_head,
+.card_movie_info {
+    display: table;
+    width: 100%;
+    text-align: left;
+}
+
+.card_movie_content_head > a {
+    text-decoration: none;
+    color: black;
+}
+ 
+.card_movie_title {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    display: table-cell;
+}
+ 
+.ratings {
+    width: 50px;
+    height: 15px;
+    background-size: contain;
+    display: table-cell;
+    text-align: right;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 600;
+}
+ 
+.ratings span {
+    color: #2196F3;
+}
+ 
+.card_movie_info {
+    margin-top: 8px;
+}
+ 
+.movie_running_time {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: left;
+}
+ 
+.movie_running_time:first_of_type {
+    text-align: left;
+}
+ 
+.movie_running_time:last_of_type {
+    text-align: right;
+}
+ 
+.movie_running_time label {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+}
+ 
+.movie_running_time span {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.movie_fovourite_icon {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.movie_fovourite_icon_Btn{
+    padding: 0px;
+}
+.deleteMovieIcon > button {
+    padding: 0px;
+}
+
+ .isFovourite {
+    color: red;
+}
+ .isNotFovourite {
+    color: gray;
+}
+
+.checkCircleIcon {
+    display: flex;
+    justify-content: flex-end;
+}
+.checkCircleIcon .unselected {
+    color: #48494B;
+}
+.checkCircleIcon .selected {
+    color: #4BA428;
+}
+.movieIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.noMoviesFound{
+    display: flex;
+    margin-left: 26%;
+}

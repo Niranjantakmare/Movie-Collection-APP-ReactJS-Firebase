@@ -1,0 +1,84 @@
+.ProfileContainer > hr {
+    margin-top: 0px;
+}
+
+.ProfileInfo {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.ProfileDetails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f2f2f2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+.ProfileContainer .ProfileDetails {
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    margin-top: 24px;
+    background-color: #ffffff;
+}
+.ProfileContainer .ProfileDetails .paper {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding: 0% 15%;
+} 
+
+.ProfileContainer .ProfileDetails .avatar {
+    margin: 8px;
+    color: #fff;
+    background-color: #ff5722;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.ProfileContainer .ProfileDetails .form {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ProfileContainer .ProfileDetails .signUpsubmit {
+    margin: 30px 0px 30px;
+}
+.ProfileDetails .errorMsg {
+    color: red;
+    text-align: left;
+}
+.ProfileDetails .alert_danger {
+    width: 100%;
+}
+
+.ProfileDetails .errorMsg {
+    color: red;
+    text-align: left;
+}
+
+.Spinner {
+    margin-top: 12%;
+    font-size: 24px;
+    width: 5rem;
+    height: 5rem;
+    color: gray;
+}
+
+.card .alert_success {
+    width: 100%;
+}
+
+.card .alert_danger {
+    width: 100%;
+}

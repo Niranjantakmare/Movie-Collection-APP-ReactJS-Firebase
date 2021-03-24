@@ -1,0 +1,13 @@
+.Spinner {
+    margin-top: 12%;
+    font-size: 24px;
+    width: 5rem;
+    height: 5rem;
+    color: gray;
+}
+
+.cardDesk {
+    border: 1px solid #E9ECEF;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

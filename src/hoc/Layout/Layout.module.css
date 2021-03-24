@@ -1,0 +1,7 @@
+.Card {
+    overflow: hidden;
+    box-sizing: content-box;
+    margin-top: 10px;
+    background-color: #EDEEF0;
+    border: 1px solid #a3c1b3;
+}
