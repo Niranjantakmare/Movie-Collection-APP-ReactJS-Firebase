@@ -1,5 +1,26 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Movies Collection App with ReactJS
+
+This is my movie collection app in React JS. I have created this app by using React JS, Material Design, HTML5, CSS3 and Bootstrap
+If you find any tips, please share them with me and let me know what can pe improved. suggestions are most welcome.
+
+Check the Movie Collection App  Demo:
+
+
+Uploading InVideo_Project_ID_364pprenderfs_1616594023250 (1) (convert-video-online.com).mp4…
+
+
+Instructions
+First clone this repository.
+
+$ git clone https://github.com/kabirbaidhya/react-todo-app.git
+Install dependencies. Make sure you already have nodejs & npm installed in your system.
+
+$ npm install
+Run it
+
+
 ## Available Scripts
 
 In the project directory, you can run:
